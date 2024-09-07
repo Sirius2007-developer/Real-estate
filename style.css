@@ -1,0 +1,226 @@
+@import url(./fonts.css);
+:root {
+    --body-bg: white;
+    --button-background: #025595;
+    --text-color: #16100D;
+    --button-text: white;
+    --nav-header-bg: #EFF8FF;
+    --header-card-bg: #fff;
+}
+body {
+    background-color: var(--body-bg);
+}
+* {
+    font-family: 'Syne', serif;
+}
+.navbar {
+    background-color: var(--nav-header-bg);
+}
+.navbar-content {
+    margin: 17px auto;
+}
+.nav-link {
+    color: var(--text-color);
+}
+.navbar-button {
+    padding: 17px 53px;
+    background-color: var(--button-background);
+    color: var(--button-text);
+    border-radius: 16px;
+}
+.header {
+    background-color: var(--nav-header-bg);
+    background-image: url(./images/header-bg.png);
+    min-height: 760px;
+    padding: 100px 150px;
+}
+.header-title {
+    font-size: 60px;
+    max-width: 599px;
+    color: var(--text-color);
+}
+.header-subtitle {
+    color: var(--text-color);
+    opacity: 0.7;
+    max-width: 535px;
+}
+.header-card {
+    max-width: 915px;
+    min-height: 90px;
+    border-radius: 16px;
+    background-color: var(--header-card-bg);
+}
+.header-card__img {
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 0.5px solid grey;
+}
+.header-card__text  h5 {
+    color: var(--text-color);
+}
+.header-card__text  p {
+    color: var(--text-color);
+}
+.search-button {
+    padding: 16px;
+    background-color: var(--button-background);
+    border-radius: 10px;
+}
+.fa-magnifying-glass {
+    font-size: 24px;
+    color: var(--header-card-bg);
+}
+.stats-text h2 {
+    color: var(--text-color);
+}
+.stats-text p {
+    color: var(--text-color);
+}
+.how {
+    margin-top: 100px;
+    min-height: 400px;
+}
+.sec-title {
+    color: var(--text-color);
+    text-align: center;
+    max-width: 500px;
+}
+.sec-subtitile {
+    max-width: 450px;
+    color: var(--text-color);
+}
+.dream-subtitle {
+    max-width: 800px;
+}
+.how-card_img {
+    height: 40px;
+    width: 40px;
+}
+.how-card_title {
+    color: var(--text-color);
+    font-size: 20px;
+}
+.how-card_text p {
+    color: var(--text-color);
+}
+.dream-bg {
+    border-radius: 16px;
+    background-image: url(./images/kitchen.png);
+    background-position: center;
+    background-size: cover;
+    min-height: 438px;
+}
+.bg-2 {
+    background-image: url(./images/livingroom.png);
+}
+.dr-mini-card {
+    max-width: 273px;
+    border-radius: 16px;
+    background-color: var(--header-card-bg);
+    top: 25%;
+}
+.dr-mini-card h4 {
+    color: var(--text-color);
+}
+.mini-card-2 {
+    right: 0;
+}
+.most-card {
+    /* max-width: 366px; */
+    border: 1px solid var(--text-color);
+    margin-top: 20px;
+    border-radius: 16px;
+    background-color: var(--header-card-bg);
+}
+.most-card h3 {
+    color: var(--button-background);
+    margin-top: 24px;
+}
+.most-card h4 {
+    color: var(--text-color);
+}
+.fa-solid {
+    color: var(--text-color);
+}
+span {
+    color: var(--text-color);
+}
+.mini-card-location p {
+    color: var(--text-color);
+}
+.comment {
+    margin-top: 150px;
+}
+.comment-text {
+    padding: 30px 30px 60px 90px;
+    /* border: 1px solid var(--text-color); */
+    margin-bottom: 50px;
+    min-height: 350px;
+    background-color: #0255950D;
+    border-radius: 16px;
+    transform: translateY(60px);
+}
+.fa-star {
+    color: #FFDC08;
+}
+.girl {
+    max-width: 350px;
+}
+.footer-logo {
+    width: 45px;
+}
+.footer-link {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.comment-text p, .user-text h3, .logo h3, .footer-l-p, .ft-links h3, .ft-links p, .other p, .info{
+    color: var(--text-color);
+}
+.fa-brands {
+    color: var(--button-background);
+}
+@media (max-width: 1200px) {
+    .comment-text {
+        padding: 30px 60px 60px 150px;
+    }
+}
+@media (max-width: 992px) {
+    .girl {
+        position: relative;
+    }
+    .comment-text {
+        padding: 30px;
+        order: 1;
+    }
+}
+@media (max-width: 768px) {
+    .header {
+        padding: 100px 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .header-title {
+        font-size: 60px;
+        text-align: center;
+    }
+    .header-subtitle {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    .header-title {
+        font-size: 40px;
+    }
+    .header-subtitle {
+        font-size: 16px;
+    }
+    .girl {
+        width: 280px;
+    }
+    .navbar-button {
+        padding: 16px;
+    }
+} 
